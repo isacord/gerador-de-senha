@@ -8,8 +8,8 @@
 --fundo-senha: #00244D;
 --fundo-texto: #001E40;
 --borda: #0075FF;
---roboto: 'Roboto', sans-serif;
---roboto-mono: 'Roboto mono', monospace;
+--roboto: "Jersey 15", sans-serif;
+--roboto-mono:"Jersey 15", sans-serif;
 
 
 }
@@ -17,12 +17,11 @@
 body{
     color: var(--branco);
     background-color: var(--cor--de-fundo);
-    font-family: var(--roboto);
+    font-family: "Jersey 15", sans-serif; 
 }
-
 .titulo_principal{
 
-    font-family: var(--roboto-mono);
+    font-family: "Jersey 15", sans-serif;
     font-size: 32px;
 }
 
@@ -50,6 +49,6 @@ body{
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: var(--roboto-mono);
+    font-family: "Jersey 15", sans-serif;
     font-size: 40px;
 }
