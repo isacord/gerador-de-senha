@@ -19,4 +19,17 @@ function aumentaTamanho{
         tamanhoSenha++;
     }
     numeroSenha.textContent = tamanhoSenha;
+    geraSenha();
 }
+
+const campoSenha = document.querySelector('#campo-senha');
+const checkbox = document.querySelectorAll('.checkbox');
+
+for (i=0 i<checkbox.length;++){
+    checkbox[i].onclick = geraSenha;
+}
+
+const letrasMauísculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMínusculas = 'abcdefghijklmnopqrstuvwxyz';
+const números = '0123456789';
+const símbolos = '!@%*?';
